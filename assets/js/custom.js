@@ -67,8 +67,8 @@ $(document).ready(function(){
 	
 		// i. client (carousel)
 		
-			$('#client').owlCarousel({
-				items:7,
+			$('#project').owlCarousel({
+				items:5,
 				loop:true,
 				smartSpeed: 1000,
 				autoplay:true,
@@ -89,7 +89,7 @@ $(document).ready(function(){
 							items:4
 						},
 						1200:{
-							items:7
+							items:5
 						}
 					}
 				});
